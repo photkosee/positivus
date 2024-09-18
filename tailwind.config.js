@@ -20,6 +20,11 @@ export default {
           to: { transform: "translateX(0)" },
         }
       },
+      colors: {
+        "primary": "#B9FF66",
+        "secondary": "#F3F3F3",
+        "tertiary": "#191A23",
+      },
     },
   },
   plugins: [],
