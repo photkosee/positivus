@@ -1,9 +1,15 @@
 import "@fontsource-variable/space-grotesk";
 
-import "./App.css";
+import HeroSection from "./components/sections/HeroSection";
 
 function App() {
-  return <div className="w-screen min-h-screen py-36"></div>;
+  return (
+    <>
+      <main className="py-28">
+        <HeroSection />
+      </main>
+    </>
+  );
 }
 
 export default App;
