@@ -22,7 +22,7 @@ const ServiceCard = ({
 
   return (
     <div
-      className={`py-8 px-9 rounded-[33px] max-w-md w-full mx-auto relative
+      className={`py-8 px-9 rounded-[45px] max-w-md w-full mx-auto relative
       border border-black h-56 grid grid-cols-2 grid-rows-3 bg-${theme}`}
     >
       <div className="flex flex-col col-span-2 sm:col-span-1">
@@ -62,7 +62,7 @@ const ServiceCard = ({
         </button>
       </div>
 
-      <div className="absolute inset-0 bg-black -z-10 -bottom-[5px] rounded-[33px]" />
+      <div className="absolute inset-0 bg-black -z-10 -bottom-[5px] rounded-[45px]" />
     </div>
   );
 };

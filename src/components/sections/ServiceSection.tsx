@@ -4,7 +4,7 @@ import ServiceCard from "../cards/ServiceCard";
 const ServiceSection = () => {
   return (
     <section className="mx-auto max-w-5xl flex flex-col gap-y-10 pt-28 px-7">
-      <div className="w-full flex flex-col lg:flex-row gap-x-10 items-center">
+      <div className="w-full flex flex-col lg:flex-row gap-x-10 gap-y-3 items-center">
         <h3
           className="text-center lg:text-start text-3xl font-semibold
           bg-primary px-1 rounded-md"
@@ -32,7 +32,7 @@ const ServiceSection = () => {
 
       <div
         className="mx-auto bg-secondary py-9 px-7 md:pl-9 flex items-center justify-center
-        lg:justify-between gap-x-5 rounded-[33px] max-h-60 mt-16 w-full max-w-2xl lg:max-w-5xl"
+        lg:justify-between gap-x-5 rounded-[45px] max-h-80 md:max-h-60 mt-10 w-full max-w-2xl lg:max-w-5xl"
       >
         <div className="max-w-md flex flex-col gap-y-3">
           <h5 className="text-2xl font-semibold">{`Let’s make things happen`}</h5>
