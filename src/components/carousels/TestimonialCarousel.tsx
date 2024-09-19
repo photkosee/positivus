@@ -70,7 +70,7 @@ const TestimonialCarousel = ({ testimonials }: TestimonialCarouselProps) => {
             paginationRef.current && paginationRef.current.slidePrev()
           }
           className={`size-10 p-2 flex items-center ${
-            currPage === 0 ? "text-neutral-700" : "text-white"
+            currPage === 0 ? "text-tertiary" : "text-white"
           }`}
           disabled={currPage === 0}
         >
@@ -111,7 +111,7 @@ const TestimonialCarousel = ({ testimonials }: TestimonialCarouselProps) => {
           }
           className={`size-10 p-2 flex items-center ${
             currPage === testimonials.length - 1
-              ? "text-neutral-700"
+              ? "text-tertiary"
               : "text-white"
           }`}
           disabled={currPage === testimonials.length - 1}

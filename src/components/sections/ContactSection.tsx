@@ -4,7 +4,7 @@ const ContactSection = () => {
   const [value, setValue] = useState<number>(0);
 
   return (
-    <section className="mx-auto max-w-5xl flex flex-col gap-y-10 pt-28 px-3 md:px-7">
+    <section className="mx-auto max-w-5xl flex flex-col gap-y-10 pt-28 px-3 md:px-7 overflow-hidden">
       <div className="w-full flex flex-col lg:flex-row gap-x-10 gap-y-3 items-center">
         <h3
           className="text-center lg:text-start text-3xl font-semibold
