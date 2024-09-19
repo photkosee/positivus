@@ -29,7 +29,7 @@ const HeroSection = () => {
 
           <button
             className="w-full md:w-auto self-start bg-black text-white
-            py-3 px-7 rounded-lg"
+            py-3 px-7 rounded-lg hover:bg-neutral-800 transition-all"
           >
             Book a consultation
           </button>

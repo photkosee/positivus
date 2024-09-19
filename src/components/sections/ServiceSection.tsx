@@ -40,7 +40,10 @@ const ServiceSection = () => {
             Contact us today to learn more about how our digital marketing
             services can help your business grow and succeed online.
           </p>
-          <button className="bg-black text-white py-3 px-7 rounded-xl w-full lg:w-auto self-start">
+          <button
+            className="bg-black text-white py-3 px-7 rounded-xl w-full lg:w-auto 
+            self-start hover:bg-neutral-800 transition-all"
+          >
             Get your free proposal
           </button>
         </div>

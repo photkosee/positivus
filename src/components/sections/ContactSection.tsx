@@ -109,7 +109,10 @@ const ContactSection = () => {
             </div>
           </div>
 
-          <button className="bg-black text-white py-3 px-7 rounded-xl w-full">
+          <button
+            className="bg-black text-white py-3 px-7 rounded-xl w-full
+            hover:bg-neutral-800 transition-all"
+          >
             Send Message
           </button>
         </div>

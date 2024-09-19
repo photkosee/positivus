@@ -42,7 +42,10 @@ const ServiceCard = ({
       </div>
 
       <div className="row-span-2 relative sm:order-3">
-        <button className="absolute left-0 bottom-0 flex items-center gap-x-2">
+        <button
+          className="absolute left-0 bottom-0 flex items-center gap-x-2
+          hover:-translate-y-1 transition-all p-1"
+        >
           <div
             className={`rounded-full size-8 flex items-center justify-center p-1 ${
               theme === "tertiary"

@@ -43,7 +43,10 @@ const CaseStudyCarousel = ({ caseStudies }: CaseStudyCarouselProps) => {
             py-7 md:py-0 max-w-[330px] min-h-[230px] sm:min-h-[200px] md:min-h-[170px]"
           >
             <p>{caseStudy.content}</p>
-            <button className="self-start flex gap-x-2 items-center text-primary">
+            <button
+              className="self-start flex gap-x-2 items-center text-primary
+              hover:-translate-y-1 transition-all p-1"
+            >
               Learn more <LuArrowUpRight className="rotate-12 text-2xl" />
             </button>
           </div>

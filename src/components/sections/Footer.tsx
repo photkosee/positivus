@@ -8,7 +8,7 @@ const Footer = () => {
         lg:rounded-t-main pt-7 pb-10 px-5 md:px-9"
       >
         <div className="flex flex-col md:flex-row gap-x-7 items-center justify-between gap-y-5">
-          <div className="flex gap-x-2 items-center">
+          <div className="flex gap-x-2 items-center select-none">
             <svg
               className="size-4 sm:size-5"
               viewBox="0 0 14 14"
@@ -24,10 +24,18 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-x-7 gap-y-3">
-            <button className="underline">About us</button>
-            <button className="underline">Services</button>
-            <button className="underline">Use Cases</button>
-            <button className="underline">Pricing</button>
+            <button className="underline hover:text-neutral-300 transition-all">
+              About us
+            </button>
+            <button className="underline hover:text-neutral-300 transition-all">
+              Services
+            </button>
+            <button className="underline hover:text-neutral-300 transition-all">
+              Use Cases
+            </button>
+            <button className="underline hover:text-neutral-300 transition-all">
+              Pricing
+            </button>
           </div>
 
           <div className="hidden md:flex gap-x-4">
@@ -57,12 +65,12 @@ const Footer = () => {
           gap-x-3 gap-y-7"
         >
           <div className="flex flex-col gap-y-3 max-w-[250px] text-center md:text-start">
-            <button
+            <div
               className="bg-primary text-black font-semibold rounded-md
               px-1.5 self-center md:self-start mb-5 md:my-0"
             >
               Contact us:
-            </button>
+            </div>
             <p>Email: info@positivus.com</p>
             <p>Phone: 555-567-8901</p>
             <p>Address: 1234 Main St Moonstone City, Stardust State 12345</p>
@@ -80,7 +88,7 @@ const Footer = () => {
             />
             <button
               className="bg-primary text-black py-3.5 px-5 rounded-xl
-              font-medium w-full"
+              font-medium w-full hover:bg-lime-300 transition-all"
             >
               Subscribe to news
             </button>
@@ -112,7 +120,9 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row items-center gap-x-5 gap-y-2">
           <div className="">© 2023 Positivus. All Rights Reserved.</div>
-          <button className="underline">Privacy Policy</button>
+          <button className="underline  hover:text-neutral-300 transition-all">
+            Privacy Policy
+          </button>
         </div>
       </div>
     </footer>

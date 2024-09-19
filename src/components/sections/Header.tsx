@@ -33,7 +33,7 @@ const Header = () => {
       } sticky p-7 top-0 z-30 transition-all`}
     >
       <div className="flex justify-between items-center max-w-5xl mx-auto">
-        <div className="flex gap-x-2 items-center">
+        <div className="flex gap-x-2 items-center select-none">
           <svg
             className="size-4 sm:size-5"
             viewBox="0 0 14 14"
@@ -49,12 +49,25 @@ const Header = () => {
         </div>
 
         <nav className="gap-x-5 xl:gap-x-7 hidden md:flex text-sm lg:text-base items-center">
-          <button>About us</button>
-          <button>Services</button>
-          <button>Use Cases</button>
-          <button>Pricing</button>
-          <button>Blog</button>
-          <button className="border border-black rounded-xl py-3 px-5 bg-white">
+          <button className="hover:text-neutral-500 transition-all">
+            About us
+          </button>
+          <button className="hover:text-neutral-500 transition-all">
+            Services
+          </button>
+          <button className="hover:text-neutral-500 transition-all">
+            Use Cases
+          </button>
+          <button className="hover:text-neutral-500 transition-all">
+            Pricing
+          </button>
+          <button className="hover:text-neutral-500 transition-all">
+            Blog
+          </button>
+          <button
+            className="border border-black rounded-xl py-3 px-5 bg-white
+            hover:bg-slate-50 transition-all"
+          >
             Request a quote
           </button>
         </nav>
@@ -87,12 +100,25 @@ const Header = () => {
         } transition-all duration-300 z-40 flex items-center justify-center p-5`}
       >
         <nav className="flex flex-col gap-y-5 items-center justify-center">
-          <button>About us</button>
-          <button>Services</button>
-          <button>Use Cases</button>
-          <button>Pricing</button>
-          <button>Blog</button>
-          <button className="border border-black rounded-xl py-3 px-5 bg-white">
+          <button className="hover:text-neutral-500 transition-all">
+            About us
+          </button>
+          <button className="hover:text-neutral-500 transition-all">
+            Services
+          </button>
+          <button className="hover:text-neutral-500 transition-all">
+            Use Cases
+          </button>
+          <button className="hover:text-neutral-500 transition-all">
+            Pricing
+          </button>
+          <button className="hover:text-neutral-500 transition-all">
+            Blog
+          </button>
+          <button
+            className="border border-black rounded-xl py-3 px-5 bg-white
+            hover:bg-slate-50 transition-all"
+          >
             Request a quote
           </button>
         </nav>
