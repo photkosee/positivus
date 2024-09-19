@@ -9,7 +9,7 @@ import ContactSection from "./components/sections/ContactSection";
 function App() {
   return (
     <>
-      <main className="pt-7 sm:pt-10 lg:pt-14 pb-28">
+      <main className="pt-7 sm:pt-10 lg:pt-14 pb-24">
         <HeroSection />
         <ServiceSection />
         <CaseStudySection />
