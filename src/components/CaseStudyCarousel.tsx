@@ -22,6 +22,7 @@ const CaseStudyCarousel = ({ caseStudies }: CaseStudyCarouselProps) => {
       spaceBetween={10}
       className="w-full"
       centeredSlides
+      grabCursor={true}
       breakpoints={{
         550: {
           slidesPerView: 2,

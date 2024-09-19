@@ -27,3 +27,9 @@ export type TeamMember = {
   image: string;
   description: string;
 }
+
+export type Testimonial = {
+  content: string;
+  name: string;
+  role: string;
+}
