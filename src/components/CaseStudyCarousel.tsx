@@ -34,8 +34,8 @@ const CaseStudyCarousel = ({ caseStudies }: CaseStudyCarouselProps) => {
         },
       }}
     >
-      {caseStudies.map((caseStudy) => (
-        <SwiperSlide>
+      {caseStudies.map((caseStudy, index) => (
+        <SwiperSlide key={index}>
           <div
             className="size-full bg-tertiary text-white rounded-[45px]
             flex flex-col gap-y-5 px-7 md:px-10 text-sm justify-between select-none

@@ -14,3 +14,9 @@ export type Service = {
 export type CaseStudy = {
   content: string;
 }
+
+export type WorkingProcess = {
+  index: string;
+  title: string;
+  description: string;
+}
