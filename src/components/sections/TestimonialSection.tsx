@@ -1,4 +1,4 @@
-import TestimonialCarousel from "../TestimonialCarousel";
+import TestimonialCarousel from "../carousels/TestimonialCarousel";
 import testimonials from "../../data/testimonials";
 
 const TestimonialSection = () => {

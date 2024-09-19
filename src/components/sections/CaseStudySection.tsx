@@ -1,5 +1,5 @@
 import caseStudies from "../../data/caseStudies";
-import CaseStudyCarousel from "../CaseStudyCarousel";
+import CaseStudyCarousel from "../carousels/CaseStudyCarousel";
 
 const CaseStudySection = () => {
   return (

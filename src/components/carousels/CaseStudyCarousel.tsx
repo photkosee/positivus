@@ -6,7 +6,7 @@ import { LuArrowUpRight } from "react-icons/lu";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import { CaseStudy } from "../types";
+import { CaseStudy } from "../../types";
 
 interface CaseStudyCarouselProps {
   caseStudies: CaseStudy[];

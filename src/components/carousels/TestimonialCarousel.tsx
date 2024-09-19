@@ -7,7 +7,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import { Testimonial } from "../types";
+import { Testimonial } from "../../types";
 
 interface TestimonialCarouselProps {
   testimonials: Testimonial[];
@@ -20,19 +20,17 @@ const TestimonialCarousel = ({ testimonials }: TestimonialCarouselProps) => {
   return (
     <Swiper
       slidesPerView={1}
-      spaceBetween={10}
+      spaceBetween={0}
       className="w-full"
       initialSlide={Math.round(testimonials.length / 2) - 1}
       centeredSlides
       grabCursor={true}
       breakpoints={{
-        550: {
+        570: {
           slidesPerView: 1.5,
-          spaceBetween: 15,
         },
-        1280: {
+        900: {
           slidesPerView: 2,
-          spaceBetween: 15,
         },
       }}
       onSwiper={(swiper) => {
@@ -47,15 +45,15 @@ const TestimonialCarousel = ({ testimonials }: TestimonialCarouselProps) => {
           <div
             className="size-full bg-tertiary text-white rounded-main
             flex flex-col gap-y-8 px-7 md:px-10 text-sm justify-between select-none
-            py-3 md:py-0 min-h-[230px] sm:min-h-[200px] md:min-h-[170px]"
+            py-3 md:py-0 max-w-lg"
           >
             <div
-              className="border border-primary rounded-main p-5 md:p-9 relative
-              before:absolute before:content-[''] before:top-[calc(100%)] before:left-14
+              className="border border-primary rounded-main py-5 px-7 md:p-9 relative
+              before:absolute before:top-[calc(100%)] before:left-14
               before:size-7 before:transform before:rotate-45 before:origin-top-right
               before:border-b before:border-r before:border-primary before:bg-tertiary"
             >
-              <p>{testimonial.content}</p>
+              <p>" {testimonial.content} "</p>
             </div>
 
             <div className="flex flex-col pl-16">

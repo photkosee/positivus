@@ -4,7 +4,7 @@ const ContactSection = () => {
   const [value, setValue] = useState<number>(0);
 
   return (
-    <section className="mx-auto max-w-5xl flex flex-col gap-y-10 pt-28 px-7 overflow-hidden">
+    <section className="mx-auto max-w-5xl flex flex-col gap-y-10 pt-28 px-3 md:px-7">
       <div className="w-full flex flex-col lg:flex-row gap-x-10 gap-y-3 items-center">
         <h3
           className="text-center lg:text-start text-3xl font-semibold
@@ -18,7 +18,7 @@ const ContactSection = () => {
       </div>
 
       <div
-        className="mx-auto bg-secondary py-9 px-10 md:px-14 flex items-center justify-center
+        className="mx-auto bg-secondary py-9 px-7 md:px-14 flex items-center justify-center
         lg:justify-between gap-x-5 rounded-main w-full max-w-lg lg:max-w-5xl relative select-none"
       >
         <div className="max-w-sm w-full flex flex-col gap-y-7">
