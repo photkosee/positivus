@@ -6,6 +6,7 @@ import CaseStudySection from "./components/sections/CaseStudySection";
 import WorkingProcessSection from "./components/sections/WorkingProcessSection";
 import TeamSection from "./components/sections/TeamSection";
 import TestimonialSection from "./components/sections/TestimonialSection";
+import ContactSection from "./components/sections/ContactSection";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <WorkingProcessSection />
         <TeamSection />
         <TestimonialSection />
+        <ContactSection />
       </main>
     </>
   );
