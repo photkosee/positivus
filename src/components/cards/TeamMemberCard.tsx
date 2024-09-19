@@ -15,10 +15,10 @@ const TeamMemberCard = ({
 }: TeamMemberCardProps) => {
   return (
     <div
-      className="bg-white size-full rounded-[35px] relative flex flex-col
+      className="bg-white size-full rounded-main relative flex flex-col
       border border-black p-7 gap-y-4 content-between max-w-[320px] mx-auto"
     >
-      <div className="absolute inset-0 bg-black -z-10 -bottom-[5px] rounded-[35px]" />
+      <div className="absolute inset-0 bg-black -z-10 -bottom-[5px] rounded-main" />
 
       <button
         className="absolute top-6 right-7 size-7 bg-black rounded-full

@@ -23,7 +23,7 @@ const CaseStudySection = () => {
       <div className="md:py-14 md:px-7 relative">
         <div
           className="absolute left-0 top-0 hidden md:grid grid-cols-3
-          divide-x-2 divide-white size-full -z-10 py-14 bg-tertiary rounded-[45px]"
+          divide-x-2 divide-white size-full -z-10 py-14 bg-tertiary rounded-main"
         >
           <div />
           <div />

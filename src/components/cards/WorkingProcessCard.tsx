@@ -15,7 +15,7 @@ const WorkingProcessCard = ({
 
   return (
     <button
-      className={`text-black rounded-[45px] w-full relative
+      className={`text-black rounded-main w-full relative
       border border-black px-7 py-5 md:p-9 select-none ${
         open ? "bg-primary" : "bg-secondary"
       } transition-all duration-300 ease-in-out`}
@@ -27,7 +27,7 @@ const WorkingProcessCard = ({
       aria-controls="description"
     >
       <div>
-        <div className="absolute inset-0 bg-black -z-10 -bottom-[5px] rounded-[45px]" />
+        <div className="absolute inset-0 bg-black -z-10 -bottom-[5px] rounded-main" />
         <div className="flex justify-between items-center gap-x-5">
           <div className="flex items-center gap-x-5 text-start">
             <p className="text-2xl sm:text-3xl md:text-4xl font-bold">
@@ -41,23 +41,23 @@ const WorkingProcessCard = ({
           >
             <svg
               className="shrink-0"
-              width="18"
-              height="18"
+              width="17"
+              height="17"
               xmlns="http://www.w3.org/2000/svg"
             >
               <rect
                 y="7"
-                width="18"
-                height="5"
+                width="17"
+                height="4"
                 rx="1"
                 className={`transform origin-center ${
                   open && "!rotate-180"
                 } transition duration-200 ease-out`}
               />
               <rect
-                y="6"
-                width="18"
-                height="5"
+                y="6.2"
+                width="17"
+                height="4"
                 rx="1"
                 className={`transform origin-center rotate-90 ${
                   open && "!rotate-180"

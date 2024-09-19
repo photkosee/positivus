@@ -32,7 +32,7 @@ const ServiceSection = () => {
 
       <div
         className="mx-auto bg-secondary py-9 px-7 md:pl-9 flex items-center justify-center
-        lg:justify-between gap-x-5 rounded-[45px] max-h-80 md:max-h-60 mt-10 w-full max-w-2xl lg:max-w-5xl"
+        lg:justify-between gap-x-5 rounded-main max-h-80 md:max-h-60 mt-10 w-full max-w-2xl lg:max-w-5xl"
       >
         <div className="max-w-md flex flex-col gap-y-3">
           <h5 className="text-2xl font-semibold">{`Let’s make things happen`}</h5>

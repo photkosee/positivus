@@ -37,7 +37,7 @@ const CaseStudyCarousel = ({ caseStudies }: CaseStudyCarouselProps) => {
       {caseStudies.map((caseStudy, index) => (
         <SwiperSlide key={index}>
           <div
-            className="size-full bg-tertiary text-white rounded-[45px]
+            className="size-full bg-tertiary text-white rounded-main
             flex flex-col gap-y-5 px-7 md:px-10 text-sm justify-between select-none
             py-7 md:py-0 max-w-[330px] min-h-[230px] sm:min-h-[200px] md:min-h-[170px]"
           >

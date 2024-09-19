@@ -26,6 +26,9 @@ export default {
         "tertiary": "#191A23",
       },
     },
+    borderRadius: {
+      "main": "35px",
+    }
   },
   plugins: [],
 }
