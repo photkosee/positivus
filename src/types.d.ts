@@ -20,3 +20,10 @@ export type WorkingProcess = {
   title: string;
   description: string;
 }
+
+export type TeamMember = {
+  name: string;
+  role: string;
+  image: string;
+  description: string;
+}
