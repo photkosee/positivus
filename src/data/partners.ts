@@ -1,3 +1,5 @@
+import { Partner } from "../types";
+
 const partners: Partner[] = [
   {
     url: "/partners/amazon-logo.svg",

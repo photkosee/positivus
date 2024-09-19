@@ -1,3 +1,5 @@
+import { Service } from "../types";
+
 const services: Service[] = [
   {
     title1: "SEO",
