@@ -1,3 +1,5 @@
+import { CaseStudy } from "../types";
+
 const caseStudies: CaseStudy[] = [
   {
     content: "For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.",
