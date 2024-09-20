@@ -81,7 +81,7 @@ const ContactSection = () => {
                 type="text"
                 id="name"
                 placeholder="Name"
-                className="border border-black w-full rounded-lg py-2 px-5"
+                className="border border-black w-full bg-white rounded-lg py-2 px-5"
               />
             </div>
 
@@ -93,7 +93,7 @@ const ContactSection = () => {
                 type="email"
                 id="email"
                 placeholder="Email"
-                className="border border-black w-full rounded-lg py-2 px-5"
+                className="border border-black w-full bg-white rounded-lg py-2 px-5"
               />
             </div>
 
@@ -104,7 +104,7 @@ const ContactSection = () => {
               <textarea
                 id="message"
                 placeholder="Message"
-                className="border border-black w-full rounded-lg py-2 px-5 min-h-28"
+                className="border border-black w-full bg-white rounded-lg py-2 px-5 min-h-28"
               />
             </div>
           </div>
